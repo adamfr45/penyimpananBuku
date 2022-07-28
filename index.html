@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <nav><div class="navJudul"><h1>Bookshelf Apps</h1></div></nav>
+        <div class="kiri">
+            <div class="container">
+                <h1>Masukan Buku Baru</h1>
+                <form id="masukanData">
+                    <div class="input">
+                        <label for="judul">judul</label><br>
+                        <input id="judul" placeholder="Masukan Judul" type="text">
+                    </div>
+                    <div class="input">
+                        <label for="penulis">Penulis</label><br>
+                        <input id="penulis" placeholder="Masukan Penulis" type="text">
+                    </div>
+                    <div class="input">
+                        <label for="tahun">Tahun</label><br>
+                        <input id="tahun" placeholder="Masukan Tahun" type="number">
+                    </div>
+                    <div class="input">
+                        <input id="inputForm" type="submit" value="Belum Di Baca" >
+                       
+                        <input id="inputForm2" type="submit" value="Selesai Di Baca">
+                    </div>
+                    
+                </form>
+                
+            </div>
+
+            <div class="container">
+                <h2>Cari Judul Buku Di Sini</h2>
+                <input type="text" id="cariData" placeholder="Cari Di Sini">
+           </div>
+        </div>
+      
+        <div class="kanan">
+            <div class="container">
+                <h1>Belum Selesai Di Baca</h1>
+                <div id="bSelesai">
+            </div>
+           </div>
+           
+           <div class="container">
+                <H1>Selesai Di Baca</H1>
+                <div id="sSelesai">
+            </div>
+           </div>
+        </div>
+       
+    </div>
+<script src="./assets/java.js"></script>
+</body>
+</html>
